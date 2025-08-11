@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GTA V</title>
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+    <link href="https://fonts.cdnfonts.com/css/chalet" rel="stylesheet" />
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./fonts.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <style>
+body {
+    background: url('./assets/bgsinup.jpg');
+    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+
+    }
+
+.container {
+    max-width: 800px;
+    width: 38%;
+    /* margin: 0 auto; */
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
+    border-radius: 10px;
+    font-family: 'ChaletComprime';
+    font-size: x-large;
+    
+
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+main section {
+    margin-bottom: 20px;
+}
+
+.login-signup h2, .verify-age h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.buttons, .social-buttons, .age-verification {
+    margin: 10px 0;
+}
+
+button {
+    width: 25%;
+    height: 25%;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #ffab00;
+    color:black;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #e09600;
+}
+
+select {
+    width:25%; 
+    height: 25%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+}
+.social-buttons img {
+    height: 50px;
+    width: 50px;
+}
+.stick{
+    position: sticky;
+    top: 0;
+    margin-bottom: 20px;
+    width: 100%;
+    font-family: 'ChaletComprime';
+}
+
+    </style>
+</head>
+<body>
+    <div class="stick">
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/logo-rockstar.svg" alt="Rockstar Games Logo">
+            <hr>
+            <img src="./assets/logo-gta.svg" alt="GTA V Logo">
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <a href="./index.html">Overview</a>
+                </li>
+                <li>
+                    <a href="">GTA Online</a>
+                </li>
+                <li>
+                    <a href="https://support.rockstargames.com/categories/200013306" target="_blank">Support <img src="./assets/icon-link.svg" alt="Support link icon"></a>
+                </li>
+                <li>
+                    <a href="">Sign In/Sign Up</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</div>
+    <div class="container">
+        <header>
+            <img src="./assets/logo-gta.svg" alt="GTA logo">
+        </header>
+        <br>
+        <main>
+            <section class="login-signup">
+                <h2>Sign In / Sign Up for full access</h2>
+                <p>Join over 200 million Rockstar Games members worldwide on the official Rockstar Games platform to enhance and extend your gaming experience.</p>
+                <br>
+                <hr>
+                <div class="buttons">
+                    <button style="font-family: 'ChaletComprime';font-size: x-large;">Sign In</button>
+                    <button style="font-family: 'ChaletComprime';font-size: x-large;">Sign Up</button>
+                </div>
+                <p>Or sign in with:</p>
+                <div class="social-buttons">
+                    <img src="./assets/ps.png" alt="PlayStation">
+                    <img src="./assets/xbox.png" alt="Xbox">
+                </div>
+            </section>
+            <hr>
+            <br>
+            <section class="verify-age">
+                <h2>Verify your age for limited access</h2>
+                <p>Only Rockstar Games members that sign in will gain full access to all areas and features, plus personal stats and exclusive game content unlocks.</p>
+                <div class="age-verification">
+                    <select name="month">
+                        <option>Month</option>
+                        <option>JAN</option>
+                        <option>FEB</option>
+                        <option>MAR</option>
+                        <option>APR</option>
+                        <option>MAY</option>
+                        <option>JUN</option>
+                        <option>JUL</option>
+                        <option>AUG</option>
+                        <option>SEP</option>
+                        <option>OCT</option>
+                        <option>NOV</option>
+                        <option>DEC</option>
+                    </select>
+                    <select name="day">
+                        <option>Day</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                    <select name="year">
+                        <option>Year</option>
+                        <option>2000</option>
+                        <option>2001</option>
+                        <option>2002</option>
+                        <option>2003</option>
+                        <option>2004</option>
+                        <option>2005</option>
+                        <option>2006</option>
+                        <option>2007</option>
+                        <option>2008</option>
+                        <option>2009</option>
+                        <option>2010</option>
+                        <option>2011</option>
+                        <option>2012</option>
+                        <option>2013</option>
+                        <option>2014</option>
+                        <option>2015</option>
+                    </select>
+                    <button style="font-family: 'ChaletComprime';font-size: x-large;">Verify Age</button>
+                </div>
+            </section>
+        </main>
+    </div>
+
+</body>
+</html>
